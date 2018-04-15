@@ -1,0 +1,28 @@
+= C/C++ Extensions to Python
+
+== Introduction
+
+We have a few little projects here to show how to call C or C++ from Python.
+
+* simplest: a bare-bones example of a C-extension to Python
+* multiple_modules: you can define many modules in a package, and have many C files
+* numpy_example: send numpy arrays back and forth between C and Python
+* cpp_example: C++ also works
+
+[WARNING]
+They only work with Python 3.  It can be done for 2.7, it is just a little different.
+
+[source, bash]
+.each one should build, install, and pass tests if you go into its directory and type make
+----
+cd simplest
+make
+cd ../multiple_modules
+make
+cd ../numpy_example
+make
+cd ../cpp_example
+make
+----
+
+
