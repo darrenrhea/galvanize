@@ -1,1 +1,0 @@
-c_extensions_to_python_presentation.adoc
